@@ -7,7 +7,7 @@
 `docker run -it --rm -p 8888:8080 app`
   
 ## Application URL
-In order to access to the application, visit:
+In order to access to the application, visit:</br>
 `http://localhost:8888/<war_name>/greeting` </br>
 or</br>
 `http://localhost:8888/<war_name>/greeting?name=YourName`

@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" th:href="@{/css/greeting.css}"/>
+</head>
+<body>
+<main>
+    <h1>Result</h1>
+    <p th:text="'id: ' + ${greeting.id}" />
+    <p th:text="'content: ' + ${greeting.content}" />
+    <a th:href="@{/greeting}">Submit another message</a>
+</main>
+</body>
+</html>
